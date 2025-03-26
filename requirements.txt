@@ -1,0 +1,12 @@
+# Core Dependencies
+python-dotenv==1.0.0
+streamlit==1.32.0
+PyPDF2==3.0.1
+pdf2image==1.17.0
+pillow==10.2.0
+matplotlib==3.8.3
+numpy==1.26.4
+openai>=1.12.0  # Azure-compatible version
+
+# PDF Processing (System Dependencies - Note for Debian/Ubuntu)
+# poppler-utils (required for pdf2image)
